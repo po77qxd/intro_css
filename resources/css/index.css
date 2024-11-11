@@ -11,12 +11,42 @@ h1 {
 }
 
 #content div {
+    display: flex;
     height: 700px;
     width: 100%;
-    border: solid 1px black;
     margin: 5px;
     padding: 10px;
 }
+#todoArea{  
+    display: flex;
+    flex-direction: column;
+    
+}
+#resultArea{
+    display: flex;
+    flex-direction: column;
+}
+#cssArea{
+    display: flex;
+    flex-direction: column;
+}
 body {
     background-color: whitesmoke;
+}
+h2{
+    text-decoration: underline;
+}
+#helpButton{
+    display: flex;
+    height: 50px;
+    width: 100px;
+    align-self: flex-end;
+}
+#testButton{
+    height: 50px;
+    width: 100px;
+}
+#DivUtilePourLeBoutonLexiquePresentEnbAsADroiteDeLaPage{
+    display: flex;
+    justify-content: flex-end;
 }
