@@ -20,7 +20,6 @@ h1 {
 #todoArea{  
     display: flex;
     flex-direction: column;
-    
 }
 #resultArea{
     display: flex;
