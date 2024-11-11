@@ -2,25 +2,16 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="../../resources/css/bootstrap.min.css">
         <link rel="stylesheet" href="../../resources/css/index.css">
         <script type="text/javascript" src="../../resources/js/main.js"></script>
         <title>intro css</title>
     </head>
     <body>
         <header>
-            <h1>intro css</h1>
+            <h1>introduction au css</h1>
         </header>
         <main>
-            <div id="todos">
-                <ol>
-                    <li>todo 1</li>
-                    <li>todo 2</li>
-                    <li>todo 3</li>
-                    <li>todo 4</li>
-                    <li>todo 5</li>
-                    <li>todo 6</li>
-                </ol>
-            </div>
             <div id="content">
                 <div id="resultArea">
                     <h3 id="titre">Lorem ipsum</h3>
@@ -28,22 +19,32 @@
                         nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
                         fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
-                    <p id="paragraphe2">Phasellus mauris diam ullamcorper curabitur lacus magna egestas facilisi. Duis semper auctor interdum gravida quis eu ac mi! Tortor vestibulum 
-                        tristique neque tristique diam viverra interdum feugiat? Mi ante nullam ex lacinia scelerisque congue ac vulputate tristique. Leo urna porta at 
-                        porttitor condimentum habitasse. Egestas montes augue ornare fusce lectus praesent erat. Luctus quisque condimentum duis ex natoque facilisi quam 
-                        nisi. Eu eget varius molestie ante; pharetra bibendum. Ac sociosqu curabitur rhoncus potenti netus arcu consequat mi. Nostra posuere tempus inceptos 
-                        lacus semper dignissim.
-                    </p>
                     <p id="footer">footer</p>
                 </div>
                 <div id="cssArea">
-                    <p>titre {<textarea id="cssTitre">border-color: #FF0000; font-size: 40px;</textarea>}</p>
-                    <p>paragraphe 1 {<textarea id="cssPar1"></textarea>}</p>
-                    <p>paragraphe 2 {<textarea id="cssPar2"></textarea>}</p>
-                    <p>footer {<textarea id="cssFooter"></textarea>}</p>
-                    <button id="testButton" onclick="applyCss();">test</button>   
+                    <p>titre {<textarea id="cssTitre" class="form-control" rows="3">font-size: 40px;</textarea>}</p>
+                    <p>paragraphe 1 {<textarea id="cssPar1" class="form-control" rows="3"></textarea>}</p>
+                    <p>body {<textarea id="cssResultArea" class="form-control" rows="3"></textarea>}</p>
+                    <p>footer {<textarea id="cssFooter" class="form-control" rows="3"></textarea>}</p>
+                    <button id="testButton" class="btn btn-success btn-lg" onclick="applyCss();">test</button>   
                 </div>
-                <div id="helpArea">3</div>
+                <div id="todoArea">
+                    <ol>
+                        <li>Changer la coulerur du titre</li>
+                        <li>Center le titre</li>
+                        <li>Souligner le titre</li>
+                        <br>
+                        <li>Changer la couleur du paragraphe</li>
+                        <li>Changer la police du paragraphe</li>
+                        <br>
+                        <li>Changer la couleur d'arrière plan</li>
+                        <li>Changer la couleur du texte</li>
+                        <br>
+                        <li></li>
+                        <li></li>
+                    </ol>
+                    <button id="helpButton" class="btn btn-primary btn-lg">Lexique</button>   
+                </div>
             </div>
         </main>
         <footer>

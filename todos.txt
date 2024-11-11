@@ -1,0 +1,18 @@
+todos
+
+titre:
+- center le titre
+- changer la taille du titre
+- souligner le titre
+
+par1:
+- texte centré (text-align: justify;)
+- changer la police: (ex arial)
+- 
+
+body:
+- changer la couleur d'arriere plan
+
+footer:
+- 
+- 
