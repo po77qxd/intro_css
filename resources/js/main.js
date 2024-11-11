@@ -11,6 +11,6 @@ function applyCss(){
 
     titre.setAttribute("style", cssTitle);
     par1.setAttribute("style", cssPar1);
-    cssPar2.setAttribute("style", cssPar2);
-    cssFooter.setAttribute("style", cssFooter);
+    par2.setAttribute("style", cssPar2);
+    footer.setAttribute("style", cssFooter);
 }
