@@ -37,7 +37,7 @@
                     <h3>Titre</h3>
                     <ol>
                         <li>Changer la couleur du titre</li>
-                        <li>Center le titre</li>
+                        <li>Centrer le titre</li>
                         <li>Souligner le titre</li>
                     </ol>
                     <br>
@@ -59,16 +59,14 @@
                         <li>Ajouter un espace entre l'adresse et le lien</li>
                     </ol>
                     <div class="ButtonAide">
-                   <button id="helpButton" class="btn btn-primary btn-lg" onclick="openHelp();">Lexique</button>
-                    <button style="margin-top: 20;" id="helpButton" class="btn btn-primary btn-lg" onclick="openAnswer();">Réponse</button>
+                        <button id="helpButton" class="btn btn-primary btn-lg" onclick="openHelp();">Lexique</button>
+                        <button style="margin-top: 20;" id="helpButton" class="btn btn-primary btn-lg" onclick="openAnswer();">Réponse</button>
                     </div>
-                    <div id="helpCard" class="card" style="width: 100%; top: -110%; left: -20px; display: none;">
-                    
+                    <div id="helpCard" class="card" style="width: 100%; top: -108%; left: -20px; display: none;">
                         <div class="card-body">
-                          <h5 class="card-title">Introduction à la Syntaxe CSS</h5>
-                          <p class="card-text">
-                        
-                            <main class="aide">
+                            <h5 class="card-title">Introduction à la Syntaxe CSS</h5>
+                            <p class="card-text">
+                            <div class="aide">
                                 <section>
                                     <p>Une règle CSS est composée de trois parties principales :</p>
                                     <ul>
@@ -79,11 +77,9 @@
                                     <pre>
                 /* Exemple de règle CSS */
                 h1 { 
-                    color: blue;font-size: 24px;
-                }
-                                    </pre>
+                color: blue;font-size: 24px;
+                }</pre>
                                 </section>
-                        
                                 <section>
                                     <h5>Propriétés CSS Courantes</h>
                                     <table style="font-size: medium;">
@@ -113,41 +109,41 @@
                                         </tbody>
                                     </table>
                                 </section>
-                            </main>
-                          </p>
-                          <button class="btn btn-primary btn-lg" onclick="closeHelp();">fermer</button>
+                            </div>
+                            </p>
+                            <button class="btn btn-primary btn-lg" onclick="closeHelp();">fermer</button>
                         </div>
                     </div>
-                    
-                    <div id="answerCard" class="card" style="width: 100%; top: -110%; left: -20px; display: none;">
+                    <div id="answerCard" class="card" style="width: 100%; top: -108%; left: -20px; display: none;">
                         <div class="card-body">
-                          <h5 class="card-title">Réponses</h5>
-                          <p class="card-text">
+                            <h5 class="card-title">Réponses</h5>
+                            <p class="card-text">
                             <section>
-                            <p>Partie titre</p>
-                            <ul>
-                                <li>color: red;</li>
-                                <li>text-align: center;</li>
-                                <li>text-decoration: underline;</li>
-                            </ul>
-                            </sextion>
-                            <section>ion>
-                            <p>Partie paragraphe</p>
-                            <ul>
-                                <li>color: green;</li>
-                                <li>font-family: arial;</li>
-                            </ul>
-                            <p>Partie body</p>
-                            <ul>
-                                <li>background-color: white;</li>
-                                <li>color: red;</li>
-                            </ul>
-                            <p>Partie footer</p>
-                            <ul>
-                                <li>display: flex;</li>
-                                <li>justify-content: space-between;</li>
-                            </ul>
-                          </p>
+                                <p>Partie titre</p>
+                                    <pre class="answer">
+                   color: red;
+                   text-align: center;
+                   text-decoration: underline;</pre>
+                            </section>
+                            <section>
+                                <p>Partie paragraphe</p>
+                                <pre class="answer">
+                  color: green;
+                   font-family: arial;</pre>
+                            </section>
+                            <section>
+                                <p>Partie body</p>
+                                <pre class="answer">
+                   background-color: white;
+                   color: red;</pre>
+                            </section>
+                            <section>
+                                <p>Partie footer</p>
+                                <pre class="answer">
+                    display: flex;
+                   justify-content: space-between;</pre>
+                        </section>
+                        </p>
                         </div>
                         <button class="btn btn-primary btn-lg" onclick="closeAnswer();">fermer</button>
                     </div>

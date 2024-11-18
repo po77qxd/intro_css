@@ -62,6 +62,10 @@ h2{
 #helpCard {
     top: -108% !important;
 }
+
+#answerCard {
+    top: -108% !important;
+}
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -77,7 +81,7 @@ body {
 
 section {
     margin-bottom: 30px;
-    padding: 15px;
+    padding: 10px;
     background: #ffffff;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -85,7 +89,7 @@ section {
 
 /* Mise en forme des articles */
 article {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     padding: 10px;
     background-color: #f9f9f9;
     border-left: 5px solid #007bff;
@@ -117,12 +121,15 @@ table tr:nth-child(even) {
 /* Code blocks */
 pre {
     background-color: #f4f4f4;
-    padding: 10px;
+    padding: 5px;
     border-left: 4px solid #007bff;
     overflow-x: auto;
     border-radius: 5px;
 }
-
+.answer{
+    padding: 5px !important;
+    width: 100%;
+}
 code {
     font-family: "Courier New", Courier, monospace;
     background-color: #e8e8e8;
@@ -133,6 +140,6 @@ header{
     color: white;
     background-color:#0000AC;
     padding:12px;
-    margin-bottom: 20px;
+    margin-bottom: 2px;
     border-radius: 0px 0px 10px 10px;
 }
