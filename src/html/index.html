@@ -61,8 +61,56 @@
                     <button id="helpButton" class="btn btn-primary btn-lg" onclick="openHelp();">Lexique</button>
                     <div id="helpCard" class="card" style="width: 100%; top: -90%; left: -20px; display: none;">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <h5 class="card-title">Introduction à la Syntaxe CSS</h5>
+                          <p class="card-text">
+                        
+                            <main class="aide">
+                                <section>
+                                    <p>Une règle CSS est composée de trois parties principales :</p>
+                                    <ul>
+                                        <li><strong>Sélecteur :</strong> Cible l'élément à styler.</li>
+                                        <li><strong>Propriétés :</strong> Définissent les aspects du style à modifier.</li>
+                                        <li><strong>Valeurs :</strong> Décrivent les détails des propriétés.</li>
+                                    </ul>
+                                    <pre>
+                /* Exemple de règle CSS */
+                h1 { 
+                    color: blue;font-size: 24px;
+                }
+                                    </pre>
+                                </section>
+                        
+                                <section>
+                                    <h5>Propriétés CSS Courantes</h>
+                                    <table style="font-size: medium;">
+                                        <thead>
+                                            <tr>
+                                                <th>Propriété</th>
+                                                <th>Description</th>
+                                                <th>Exemple</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>color</td>
+                                                <td>Définit la couleur du texte.</td>
+                                                <td><code>color: red;</code></td>
+                                            </tr>
+                                            <tr>
+                                                <td>background-color</td>
+                                                <td>Définit la couleur de fond.</td>
+                                                <td><code>background-color: yellow;</code></td>
+                                            </tr>
+                                            <tr>
+                                                <td>font-size</td>
+                                                <td>Définit la taille de la police.</td>
+                                                <td><code>font-size: 16px;</code></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </section>
+                            </main>
+                          </p>
                           <button class="btn btn-primary btn-lg" onclick="closeHelp();">fermer</button>
                         </div>
                     </div>
