@@ -14,3 +14,15 @@ function applyCss(){
     resultArea.setAttribute("style", cssResultArea);
     footer.setAttribute("style", cssFooter);
 }
+
+function openHelp(){
+    var helpCard = document.getElementById("helpCard");
+    helpCard.setAttribute("style", "display: block; width: 100%; top: -90%; left: -20px;" );
+    var todoArea = document.getElementById("todoArea");
+    todoArea.setAttribute("style", "height: 700px;" );
+}
+
+function closeHelp(){
+    var helpCard = document.getElementById("helpCard");
+    helpCard.setAttribute("style", "display: none;");
+}
