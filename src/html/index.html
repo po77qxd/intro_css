@@ -58,8 +58,12 @@
                         <li>Aligner l'adresse et le lien</li>
                         <li>Ajouter un espace entre l'adresse et le lien</li>
                     </ol>
-                    <button id="helpButton" class="btn btn-primary btn-lg" onclick="openHelp();">Lexique</button>
-                    <div id="helpCard" class="card" style="width: 100%; top: -90%; left: -20px; display: none;">
+                    <div class="ButtonAide">
+                   <button id="helpButton" class="btn btn-primary btn-lg" onclick="openHelp();">Lexique</button>
+                    <button style="margin-top: 20;" id="helpButton" class="btn btn-primary btn-lg" onclick="openAnswer();">Réponse</button>
+                    </div>
+                    <div id="helpCard" class="card" style="width: 100%; top: -110%; left: -20px; display: none;">
+                    
                         <div class="card-body">
                           <h5 class="card-title">Introduction à la Syntaxe CSS</h5>
                           <p class="card-text">
@@ -113,6 +117,39 @@
                           </p>
                           <button class="btn btn-primary btn-lg" onclick="closeHelp();">fermer</button>
                         </div>
+                    </div>
+                    
+                    <div id="answerCard" class="card" style="width: 100%; top: -110%; left: -20px; display: none;">
+                        <div class="card-body">
+                          <h5 class="card-title">Réponses</h5>
+                          <p class="card-text">
+                            <section>
+                            <p>Partie titre</p>
+                            <ul>
+                                <li>color: red;</li>
+                                <li>text-align: center;</li>
+                                <li>text-decoration: underline;</li>
+                            </ul>
+                            </sextion>
+                            <section>ion>
+                            <p>Partie paragraphe</p>
+                            <ul>
+                                <li>color: green;</li>
+                                <li>font-family: arial;</li>
+                            </ul>
+                            <p>Partie body</p>
+                            <ul>
+                                <li>background-color: white;</li>
+                                <li>color: red;</li>
+                            </ul>
+                            <p>Partie footer</p>
+                            <ul>
+                                <li>display: flex;</li>
+                                <li>justify-content: space-between;</li>
+                            </ul>
+                          </p>
+                        </div>
+                        <button class="btn btn-primary btn-lg" onclick="closeAnswer();">fermer</button>
                     </div>
                 </div>
             </div>

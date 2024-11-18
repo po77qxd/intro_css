@@ -26,3 +26,15 @@ function closeHelp(){
     var helpCard = document.getElementById("helpCard");
     helpCard.setAttribute("style", "display: none;");
 }
+
+function openAnswer(){
+    var answerCard = document.getElementById("answerCard");
+    answerCard.setAttribute("style", "display: block; width: 100%; top: -90%; left: -20px;" );
+    var todoArea = document.getElementById("todoArea");
+    todoArea.setAttribute("style", "height: 700px;" );
+}
+
+function closeAnswer(){
+    var answerCard = document.getElementById("answerCard");
+    answerCard.setAttribute("style", "display: none;");
+}

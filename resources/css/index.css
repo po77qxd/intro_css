@@ -1,6 +1,5 @@
 h1 {
     text-align: center;
-    text-decoration: underline;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
 }
@@ -8,6 +7,10 @@ h1 {
 #content {
     display: flex;
     justify-content: space-between;
+}
+
+textarea {
+    resize: none;
 }
 
 #content div {
@@ -37,9 +40,11 @@ h2{
 }
 #helpButton{
     display: flex;
+    justify-content: center;
     height: 50px;
     width: 100px;
     align-self: flex-end;
+    margin: 20px;
 }
 #testButton{
     height: 50px;
@@ -49,6 +54,14 @@ h2{
     display: flex;
     justify-content: flex-end;
 }
+.ButtonAide{
+    display: flex;
+    
+}
+
+#helpCard {
+    top: -108% !important;
+}
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -57,7 +70,6 @@ body {
     background-color: #f4f4f9;
     color: #333;
 }
-
 /* Sections principales */
 #aide {
     padding: 20px;
@@ -116,122 +128,11 @@ code {
     background-color: #e8e8e8;
     padding: 2px 4px;
     border-radius: 3px;
-}h1 {
-    text-align: center;
-    text-decoration: underline;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 60px;
 }
-
-#content {
-    display: flex;
-    justify-content: space-between;
-}
-
-#content div {
-    /* display: flex; */
-    /* height: 700px; */
-    width: 100%;
-    margin: 5px;
-    padding: 10px;
-}
-#todoArea{  
-    display: flex;
-    flex-direction: column;
-}
-#resultArea{
-    display: flex;
-    flex-direction: column;
-}
-#cssArea{
-    display: flex;
-    flex-direction: column;
-}
-body {
-    background-color: whitesmoke;
-}
-h2{
-    text-decoration: underline;
-}
-#helpButton{
-    display: flex;
-    height: 50px;
-    width: 100px;
-    align-self: flex-end;
-}
-#testButton{
-    height: 50px;
-    width: 100px;
-}
-#DivUtilePourLeBoutonLexiquePresentEnbAsADroiteDeLaPage{
-    display: flex;
-    justify-content: flex-end;
-}
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
-}
-
-/* Sections principales */
-#aide {
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 30px;
-    padding: 15px;
-    background: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-/* Mise en forme des articles */
-article {
-    margin-bottom: 15px;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border-left: 5px solid #007bff;
-}
-
-/* Table */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 15px;
-}
-
-table th,
-table td {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: left;
-}
-
-table th {
-    background-color: #007bff;
+header{
     color: white;
-}
-
-table tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-
-/* Code blocks */
-pre {
-    background-color: #f4f4f4;
-    padding: 10px;
-    border-left: 4px solid #007bff;
-    overflow-x: auto;
-    border-radius: 5px;
-}
-
-code {
-    font-family: "Courier New", Courier, monospace;
-    background-color: #e8e8e8;
-    padding: 2px 4px;
-    border-radius: 3px;
+    background-color:#0000AC;
+    padding:12px;
+    margin-bottom: 20px;
+    border-radius: 0px 0px 10px 10px;
 }
