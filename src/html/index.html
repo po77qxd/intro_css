@@ -57,9 +57,9 @@
                     </ol>
                     <div class="ButtonAide">
                         <button id="helpButton" class="btn btn-primary btn-lg" onclick="openHelp();">Lexique</button>
-                        <button style="margin-top: 20;" id="helpButton" class="btn btn-primary btn-lg" onclick="openAnswer();">Réponse</button>
+                        <button style="margin-top: 20;" id="helpButton" class="btn btn-outline-primary btn-lg" onclick="openAnswer();">Réponse</button>
                     </div>
-                    <div id="helpCard" class="card" style="width: 100%; top: -108%; left: -20px; display: none;">
+                    <div id="helpCard" class="card" style="width: 100%; top: -100%; left: -20px; display: none;">
                         <div class="card-body">
                             <h5 class="card-title">Introduction à la Syntaxe CSS</h5>
                             <p class="card-text">
@@ -108,10 +108,10 @@
                                 </section>
                             </div>
                             </p>
-                            <button class="btn btn-primary btn-lg" onclick="closeHelp();">fermer</button>
+                            <div style="display: flex; flex-direction: column;"><button class="btn btn-primary btn-lg" style="align-self: flex-end;" onclick="closeHelp();">fermer</button></div>
                         </div>
                     </div>
-                    <div id="answerCard" class="card" style="width: 100%; top: -108%; left: -20px; display: none;">
+                    <div id="answerCard" class="card" style="width: 100%; top: -100%; left: -20px; display: none;">
                         <div class="card-body">
                             <h5 class="card-title">Réponses</h5>
                             <p class="card-text">
@@ -142,13 +142,13 @@
                         </section>
                         </p>
                         </div>
-                        <button class="btn btn-primary btn-lg" onclick="closeAnswer();">fermer</button>
+                        <div style="display: flex; flex-direction: column;"><button class="btn btn-primary btn-lg" style="align-self: flex-end;" onclick="closeAnswer();">fermer</button></div>
                     </div>
                 </div>
             </div>
         </main>
         <footer>
-
+            ©
         </footer>
     </body>
 </html>
