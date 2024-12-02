@@ -52,6 +52,13 @@
                         <li>Changer la couleur du texte</li>
                     </ol>
                     <br>
+                    <h3 >Image</h3>
+                    <ol>
+                        <li>Mettre l'image a une largeur de 250px</li>
+                        <li>Mettre l'image au millieu</li>
+                    </ol>
+                    
+                    <br>
                     <h3>Footer</h3>
                     <ol>
                         <li>Aligner l'adresse et le lien</li>
@@ -61,7 +68,7 @@
                         <button id="helpButton" class="btn btn-primary btn-lg" onclick="openHelp();">Lexique</button>
                         <button style="margin-top: 20;" id="helpButton" class="btn btn-outline-primary btn-lg" onclick="openAnswer();">Réponse</button>
                     </div>
-                    <div id="helpCard" class="card" style="width: 100%; top: -100%; left: -20px; display: none;">
+                    <div id="helpCard" class="card" style="width: 100%; top: -900px !important; left: -20px; display: none;">
                         <div class="card-body">
                             <h5 class="card-title">Introduction à la Syntaxe CSS</h5>
                             <p class="card-text">
@@ -113,7 +120,7 @@
                             <div style="display: flex; flex-direction: column;"><button class="btn btn-primary btn-lg" style="align-self: flex-end;" onclick="closeHelp();">fermer</button></div>
                         </div>
                     </div>
-                    <div id="answerCard" class="card" style="width: 100%; top: -100%; left: -20px; display: none;">
+                    <div id="answerCard" class="card" style="width: 100%; top: -915px !important; left: -20px; display: none;">
                         <div class="card-body">
                             <h5 class="card-title">Réponses</h5>
                             <p class="card-text">
@@ -137,6 +144,12 @@
                    color: red;</pre>
                             </section>
                             <section>
+                                <p>Partie image</p>
+                                <pre class="answer">
+                   width: 250px;
+                   margin: auto;  </pre>
+                            </section>
+                            <section>
                                 <p>Partie footer</p>
                                 <pre class="answer">
                     display: flex;
@@ -144,7 +157,7 @@
                         </section>
                         </p>
                         </div>
-                        <div style="display: flex; flex-direction: column;"><button class="btn btn-primary btn-lg" style="align-self: flex-end;" onclick="closeAnswer();">fermer</button></div>
+                        <div style="display: flex; flex-direction: column; margin-top: -20px !important; padding-top: 0 !important;"><button class="btn btn-primary btn-lg" style="align-self: flex-end;" onclick="closeAnswer();">fermer</button></div>
                     </div>
                 </div>
             </div>

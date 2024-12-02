@@ -20,7 +20,7 @@ function applyCss(){
 
 function openHelp(){
     var helpCard = document.getElementById("helpCard");
-    helpCard.setAttribute("style", "display: block; width: 100%; top: -100%; left: -20px;" );
+    helpCard.setAttribute("style", "display: block; width: 100%; top: -900px !important; left: -20px;" );
     var todoArea = document.getElementById("todoArea");
     todoArea.setAttribute("style", "height: 700px;" );
 }
@@ -32,7 +32,7 @@ function closeHelp(){
 
 function openAnswer(){
     var answerCard = document.getElementById("answerCard");
-    answerCard.setAttribute("style", "display: block; width: 100%; top: -100%; left: -20px;" );
+    answerCard.setAttribute("style", "display: block; width: 100%; top: -915px !important; left: -20px;" );
     var todoArea = document.getElementById("todoArea");
     todoArea.setAttribute("style", "height: 700px;" );
 }
