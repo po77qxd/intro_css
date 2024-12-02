@@ -16,8 +16,6 @@ textarea {
 }
 
 #content div {
-    /* display: flex; */
-    /* height: 700px; */
     width: 100%;
     margin: 5px;
     padding: 10px;
@@ -29,6 +27,7 @@ textarea {
 #resultArea{
     display: flex;
     flex-direction: column;
+    margin-left: 20px !important;
 }
 #cssArea{
     display: flex;
@@ -40,14 +39,14 @@ body {
 h2{
     text-decoration: underline;
 }
-#helpButton{
+.helpButton{
     display: flex;
     justify-content: center;
     height: 50px;
     width: 100px;
     align-self: flex-end;
     margin: 20px;
-    margin-top: 60px;
+    margin-top: 38px;
 }
 #testButton{
     height: 50px;
