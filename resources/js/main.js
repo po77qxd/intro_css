@@ -23,6 +23,9 @@ function openHelp(){
     helpCard.setAttribute("style", "display: block; width: 100%; top: -900px !important; left: -20px;" );
     var todoArea = document.getElementById("todoArea");
     todoArea.setAttribute("style", "height: 700px;" );
+    //close the other card
+    var answerCard = document.getElementById("answerCard");
+    answerCard.setAttribute("style", "display: none;");
 }
 
 function closeHelp(){
@@ -35,6 +38,9 @@ function openAnswer(){
     answerCard.setAttribute("style", "display: block; width: 100%; top: -915px !important; left: -20px;" );
     var todoArea = document.getElementById("todoArea");
     todoArea.setAttribute("style", "height: 700px;" );
+    //close the other card
+    var helpCard = document.getElementById("helpCard");
+    helpCard.setAttribute("style", "display: none;");
 }
 
 function closeAnswer(){
