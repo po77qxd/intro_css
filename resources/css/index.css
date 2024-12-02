@@ -47,10 +47,11 @@ h2{
     width: 100px;
     align-self: flex-end;
     margin: 20px;
+    margin-top: 63px;
 }
 #testButton{
     height: 50px;
-    width: 100px;
+    width: 150px;
     align-self: flex-end;
 }
 #DivUtilePourLeBoutonLexiquePresentEnbAsADroiteDeLaPage{
