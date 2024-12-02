@@ -40,6 +40,10 @@ body {
 h2{
     text-decoration: underline;
 }
+img{
+    width: 250px;
+    margin: auto;
+}
 #helpButton{
     display: flex;
     justify-content: center;
